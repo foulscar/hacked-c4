@@ -12,7 +12,7 @@ function Game() {
     var that = this;
     this.map = [];
     this.paused = false;
-    this.won = false;
+    this.won = true;
     this.rejectClick = false;
     this.move = 0;
     this.aiHistory = [];
